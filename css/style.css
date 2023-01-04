@@ -1,0 +1,187 @@
+/* Common css starts here */
+:root {
+    --primaryBodyColor: #0f2f44;
+    --seconderyBodyColor: #ffc712;
+    --thirdColor: #222222;
+    --forthColor: #777777;
+    --bannerBackgroundColor: #e0eeff;
+    --hoverShapeColor: #fff9e6;
+    --transitionDelay: 0.4s;
+    --white: #ffffff;
+}
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 500;
+    display: inline-block;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+img {
+    display: block;
+}
+.container {
+    width: 1170px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.alignItems {
+    align-items: center;
+}
+
+.justifyBetween {
+    justify-content: space-between;
+}
+.justifyCenter {
+    justify-content: center;
+}
+/* Common css starts here */
+
+/* Header section starts here */
+header {
+    font-size: 16px;
+}
+#topBar {
+    background-color: var(--primaryBodyColor);
+}
+#topBar p {
+    color: var(--white);
+    padding: 19px 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+/* nav section starts here */
+nav .menu  ul li a {
+    padding: 40px 19px;
+    color: var(--thirdColor);
+    text-transform: capitalize;
+    transition: var(--transitionDelay);
+}
+nav .menu  ul li a:hover {
+    background-color: var(--hoverShapeColor);
+    color: var(--seconderyBodyColor);
+}
+/* nav section ends here */
+/* Header section ends here */
+
+/* Banner section starts here */
+#banner {
+    background-image: url(../img/banner.png);
+    background-size: 46%;
+    background-position: bottom right 12%;
+    background-color: var(--bannerBackgroundColor);
+    background-repeat: no-repeat;
+}
+#banner .row.h100 {
+    height: 600px;
+}
+#banner .bannerContent h1 span {
+    display: block;
+    color: var(--primaryBodyColor);
+    font-weight: 400;
+}
+#banner .bannerContent h1 span:first-child {
+    font-weight: 300;
+    font-size: 50px;
+    text-transform: capitalize;
+}
+#banner .bannerContent h1 span:nth-child(2) {
+    font-family: 'Abril fatface';
+    font-size: 80px;
+    text-transform: uppercase;
+    line-height: 70px;
+}
+#banner .bannerContent h1 span:last-child {
+    font-size: 32px;
+    line-height: 24px;
+    color: #8484bf;
+    letter-spacing: 14px;
+    padding-top: 16px;
+}
+#banner .bannerContent p {
+    width: 470px;
+    color: #444444;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 30px 0;
+}
+#banner .bannerContent a {
+    font-size: 20px;
+    color: var(--white);
+    padding: 16px 20px;
+    background-color: #8484bf;
+    border-radius: 5px;
+}
+#banner .bannerContent .playBtn {
+    padding: 0 20px;
+}
+/* Banner section ends here */
+
+/* About section starts here */
+#about {
+    padding: 100px 0;
+    color: var(--primaryBodyColor);
+}
+
+/* Common style starts here */
+.commonStyle {
+    width: 570px;
+}
+.commonStyle p:first-child {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+.commonStyle h3 {
+    font-family: 'Abril Fatface';
+    font-size: 32px;
+    font-weight: 400;
+    padding-bottom: 31px;
+}
+.coomonStyle p:last-child {
+    font-size: 16px;
+}
+/* Common style css ends here */
+#about .aboutContent .keynote {
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+#about .aboutContent .keynote p {
+    padding-top: 30px;
+    font-size: 16px;
+    font-family: 'Open sans', sans-serif;
+}
+#about .aboutContent .aboutButton a {
+    color: inherit;
+    padding: 16px 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#about .aboutContent .aboutButton a:first-child {
+    background-color: var(--seconderyBodyColor);
+}
+/* About section ends here */
+

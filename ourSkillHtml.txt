@@ -1,0 +1,35 @@
+<!-- Our skill section starts here -->
+    <section id="ourSkills">
+        <div class="container">
+            <div class="row">
+                <div class="skillsImg">
+                    <img src="./img/ourSkill-Imge.png" alt="">
+                </div>
+                <div class="skillContent">
+                    <div class="commonStyle">
+                        <p>What can we do?</p>
+                        <h3>Our Skills</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodpor nt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div class="row">
+                        <div class="skillPercentageContainer">
+                            <div class="skillPercentageText row justifyBetween">
+                                <p>90%</p>
+                                <p>Photoshop</p>
+                            </div>
+                            <div class="skillPercentage">
+                                <div class="actualSkillPercentage">
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skills-Icon">
+                            <img src="./img/skill-icon1.png" alt="ourSkill-Imge">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Our skill section ends here -->
+    

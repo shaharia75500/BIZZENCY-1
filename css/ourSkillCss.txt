@@ -1,0 +1,24 @@
+/* Our skill starts here */
+#ourSkills {
+    color: var(--primaryBodyColor);
+    text-align: right;
+}
+#ourSkills .skillsImg {
+    width: 40%;
+}
+#ourSkills .skillsImg img {
+    width: 100%;
+}
+#ourSkills .skillPercentageContainer {
+    width: 410px;
+}
+#ourSkills .skillPercentageContainer .skillPercentageText {
+    width: 90%;
+}
+#ourSkills .skillPercentageText p {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+/* Our skill ends here */
+ 
